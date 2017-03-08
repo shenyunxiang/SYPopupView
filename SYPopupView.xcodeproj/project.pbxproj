@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		093FA3CB1E07C61300B11695 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 093FA3CA1E07C61300B11695 /* main.m */; };
+		093FA3CE1E07C61300B11695 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 093FA3CD1E07C61300B11695 /* AppDelegate.m */; };
+		093FA3D11E07C61300B11695 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093FA3D01E07C61300B11695 /* ViewController.m */; };
+		093FA3D41E07C61300B11695 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093FA3D21E07C61300B11695 /* Main.storyboard */; };
+		093FA3D61E07C61300B11695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 093FA3D51E07C61300B11695 /* Assets.xcassets */; };
+		093FA3D91E07C61400B11695 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093FA3D71E07C61400B11695 /* LaunchScreen.storyboard */; };
+		093FA3E41E07C61400B11695 /* SYPopupViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 093FA3E31E07C61400B11695 /* SYPopupViewTests.m */; };
+		093FA3EF1E07C61400B11695 /* SYPopupViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 093FA3EE1E07C61400B11695 /* SYPopupViewUITests.m */; };
+		093FA3FF1E07C6F600B11695 /* SYPopupWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 093FA3FE1E07C6F600B11695 /* SYPopupWindow.m */; };
+		093FA4021E07CA4C00B11695 /* SYPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 093FA4011E07CA4C00B11695 /* SYPopupView.m */; };
+		09866C751E6EDC4300FC249D /* SYPopupCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 09866C741E6EDC4300FC249D /* SYPopupCategory.m */; };
+		09866C791E6EF43D00FC249D /* SYPopupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 09866C781E6EF43D00FC249D /* SYPopupItem.m */; };
+		17ED6DAA07568111552FA050 /* libPods-SYPopupViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5846ACC6568809753B2A58 /* libPods-SYPopupViewUITests.a */; };
+		444136E1048DA4C551A3BD1F /* libPods-SYPopupViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AFFC0490E26FB7F89FB125B /* libPods-SYPopupViewTests.a */; };
+		7A112B836458917F4CD98BF8 /* libPods-SYPopupView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06339E983AB7F1B4B52E9E10 /* libPods-SYPopupView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		093FA3E01E07C61400B11695 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 093FA3BE1E07C61300B11695 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 093FA3C51E07C61300B11695;
+			remoteInfo = SYPopupView;
+		};
+		093FA3EB1E07C61400B11695 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 093FA3BE1E07C61300B11695 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 093FA3C51E07C61300B11695;
+			remoteInfo = SYPopupView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06339E983AB7F1B4B52E9E10 /* libPods-SYPopupView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SYPopupView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		093FA3C61E07C61300B11695 /* SYPopupView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYPopupView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		093FA3CA1E07C61300B11695 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		093FA3CC1E07C61300B11695 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		093FA3CD1E07C61300B11695 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		093FA3CF1E07C61300B11695 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		093FA3D01E07C61300B11695 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		093FA3D31E07C61300B11695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		093FA3D51E07C61300B11695 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		093FA3D81E07C61400B11695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		093FA3DA1E07C61400B11695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		093FA3DF1E07C61400B11695 /* SYPopupViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYPopupViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		093FA3E31E07C61400B11695 /* SYPopupViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYPopupViewTests.m; sourceTree = "<group>"; };
+		093FA3E51E07C61400B11695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		093FA3EA1E07C61400B11695 /* SYPopupViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYPopupViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		093FA3EE1E07C61400B11695 /* SYPopupViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYPopupViewUITests.m; sourceTree = "<group>"; };
+		093FA3F01E07C61400B11695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		093FA3FD1E07C6F600B11695 /* SYPopupWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPopupWindow.h; sourceTree = "<group>"; };
+		093FA3FE1E07C6F600B11695 /* SYPopupWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPopupWindow.m; sourceTree = "<group>"; };
+		093FA4001E07CA4C00B11695 /* SYPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPopupView.h; sourceTree = "<group>"; };
+		093FA4011E07CA4C00B11695 /* SYPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPopupView.m; sourceTree = "<group>"; };
+		09866C731E6EDC4300FC249D /* SYPopupCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPopupCategory.h; sourceTree = "<group>"; };
+		09866C741E6EDC4300FC249D /* SYPopupCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPopupCategory.m; sourceTree = "<group>"; };
+		09866C761E6EE4FE00FC249D /* SYPopup_Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYPopup_Macro.h; sourceTree = "<group>"; };
+		09866C771E6EF43D00FC249D /* SYPopupItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPopupItem.h; sourceTree = "<group>"; };
+		09866C781E6EF43D00FC249D /* SYPopupItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPopupItem.m; sourceTree = "<group>"; };
+		2AF7362D6D736F17872105D5 /* Pods-SYPopupView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYPopupView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SYPopupView/Pods-SYPopupView.release.xcconfig"; sourceTree = "<group>"; };
+		8AFFC0490E26FB7F89FB125B /* libPods-SYPopupViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SYPopupViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A58B03F3AFCA22F9AA6696B2 /* Pods-SYPopupViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYPopupViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SYPopupViewUITests/Pods-SYPopupViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AD5846ACC6568809753B2A58 /* libPods-SYPopupViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SYPopupViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4E99D26FC9C9621532E10E /* Pods-SYPopupViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYPopupViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SYPopupViewUITests/Pods-SYPopupViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA534E8217AB61AF98E30AA3 /* Pods-SYPopupViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYPopupViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SYPopupViewTests/Pods-SYPopupViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		E3D8BADFC2621C53B422E897 /* Pods-SYPopupViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYPopupViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SYPopupViewTests/Pods-SYPopupViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0D5EF23ED65F78EE8D2F669 /* Pods-SYPopupView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYPopupView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SYPopupView/Pods-SYPopupView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		093FA3C31E07C61300B11695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A112B836458917F4CD98BF8 /* libPods-SYPopupView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093FA3DC1E07C61400B11695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				444136E1048DA4C551A3BD1F /* libPods-SYPopupViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093FA3E71E07C61400B11695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17ED6DAA07568111552FA050 /* libPods-SYPopupViewUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		093FA3BD1E07C61300B11695 = {
+			isa = PBXGroup;
+			children = (
+				093FA3C81E07C61300B11695 /* SYPopupView */,
+				093FA3E21E07C61400B11695 /* SYPopupViewTests */,
+				093FA3ED1E07C61400B11695 /* SYPopupViewUITests */,
+				093FA3C71E07C61300B11695 /* Products */,
+				9926F4F3D35AD458ADAA7A2C /* Pods */,
+				AEE6FE40D29CEA4061764265 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		093FA3C71E07C61300B11695 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				093FA3C61E07C61300B11695 /* SYPopupView.app */,
+				093FA3DF1E07C61400B11695 /* SYPopupViewTests.xctest */,
+				093FA3EA1E07C61400B11695 /* SYPopupViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		093FA3C81E07C61300B11695 /* SYPopupView */ = {
+			isa = PBXGroup;
+			children = (
+				093FA3FC1E07C6A600B11695 /* SYPopupView */,
+				093FA3CC1E07C61300B11695 /* AppDelegate.h */,
+				093FA3CD1E07C61300B11695 /* AppDelegate.m */,
+				093FA3CF1E07C61300B11695 /* ViewController.h */,
+				093FA3D01E07C61300B11695 /* ViewController.m */,
+				093FA3D21E07C61300B11695 /* Main.storyboard */,
+				093FA3D51E07C61300B11695 /* Assets.xcassets */,
+				093FA3D71E07C61400B11695 /* LaunchScreen.storyboard */,
+				093FA3DA1E07C61400B11695 /* Info.plist */,
+				093FA3C91E07C61300B11695 /* Supporting Files */,
+			);
+			path = SYPopupView;
+			sourceTree = "<group>";
+		};
+		093FA3C91E07C61300B11695 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				093FA3CA1E07C61300B11695 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		093FA3E21E07C61400B11695 /* SYPopupViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				093FA3E31E07C61400B11695 /* SYPopupViewTests.m */,
+				093FA3E51E07C61400B11695 /* Info.plist */,
+			);
+			path = SYPopupViewTests;
+			sourceTree = "<group>";
+		};
+		093FA3ED1E07C61400B11695 /* SYPopupViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				093FA3EE1E07C61400B11695 /* SYPopupViewUITests.m */,
+				093FA3F01E07C61400B11695 /* Info.plist */,
+			);
+			path = SYPopupViewUITests;
+			sourceTree = "<group>";
+		};
+		093FA3FC1E07C6A600B11695 /* SYPopupView */ = {
+			isa = PBXGroup;
+			children = (
+				093FA3FD1E07C6F600B11695 /* SYPopupWindow.h */,
+				093FA3FE1E07C6F600B11695 /* SYPopupWindow.m */,
+				093FA4001E07CA4C00B11695 /* SYPopupView.h */,
+				093FA4011E07CA4C00B11695 /* SYPopupView.m */,
+				09866C731E6EDC4300FC249D /* SYPopupCategory.h */,
+				09866C741E6EDC4300FC249D /* SYPopupCategory.m */,
+				09866C761E6EE4FE00FC249D /* SYPopup_Macro.h */,
+				09866C771E6EF43D00FC249D /* SYPopupItem.h */,
+				09866C781E6EF43D00FC249D /* SYPopupItem.m */,
+			);
+			path = SYPopupView;
+			sourceTree = "<group>";
+		};
+		9926F4F3D35AD458ADAA7A2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0D5EF23ED65F78EE8D2F669 /* Pods-SYPopupView.debug.xcconfig */,
+				2AF7362D6D736F17872105D5 /* Pods-SYPopupView.release.xcconfig */,
+				E3D8BADFC2621C53B422E897 /* Pods-SYPopupViewTests.debug.xcconfig */,
+				DA534E8217AB61AF98E30AA3 /* Pods-SYPopupViewTests.release.xcconfig */,
+				CB4E99D26FC9C9621532E10E /* Pods-SYPopupViewUITests.debug.xcconfig */,
+				A58B03F3AFCA22F9AA6696B2 /* Pods-SYPopupViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AEE6FE40D29CEA4061764265 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06339E983AB7F1B4B52E9E10 /* libPods-SYPopupView.a */,
+				8AFFC0490E26FB7F89FB125B /* libPods-SYPopupViewTests.a */,
+				AD5846ACC6568809753B2A58 /* libPods-SYPopupViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		093FA3C51E07C61300B11695 /* SYPopupView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 093FA3F31E07C61400B11695 /* Build configuration list for PBXNativeTarget "SYPopupView" */;
+			buildPhases = (
+				158A94C90657F7BB5042CF10 /* [CP] Check Pods Manifest.lock */,
+				093FA3C21E07C61300B11695 /* Sources */,
+				093FA3C31E07C61300B11695 /* Frameworks */,
+				093FA3C41E07C61300B11695 /* Resources */,
+				36D3A82276E46F67DBC0C007 /* [CP] Embed Pods Frameworks */,
+				D49395E09B56A11D2C579787 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYPopupView;
+			productName = SYPopupView;
+			productReference = 093FA3C61E07C61300B11695 /* SYPopupView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		093FA3DE1E07C61400B11695 /* SYPopupViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 093FA3F61E07C61400B11695 /* Build configuration list for PBXNativeTarget "SYPopupViewTests" */;
+			buildPhases = (
+				82590B91DED5F00A1ED82B35 /* [CP] Check Pods Manifest.lock */,
+				093FA3DB1E07C61400B11695 /* Sources */,
+				093FA3DC1E07C61400B11695 /* Frameworks */,
+				093FA3DD1E07C61400B11695 /* Resources */,
+				CD020090118DC559B068525A /* [CP] Embed Pods Frameworks */,
+				4797C9B5FB22C4295287F042 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				093FA3E11E07C61400B11695 /* PBXTargetDependency */,
+			);
+			name = SYPopupViewTests;
+			productName = SYPopupViewTests;
+			productReference = 093FA3DF1E07C61400B11695 /* SYPopupViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		093FA3E91E07C61400B11695 /* SYPopupViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 093FA3F91E07C61400B11695 /* Build configuration list for PBXNativeTarget "SYPopupViewUITests" */;
+			buildPhases = (
+				11CD9308708DBD6F3A0D758B /* [CP] Check Pods Manifest.lock */,
+				093FA3E61E07C61400B11695 /* Sources */,
+				093FA3E71E07C61400B11695 /* Frameworks */,
+				093FA3E81E07C61400B11695 /* Resources */,
+				ABD5F1ED4CD5E785DAA28E6A /* [CP] Embed Pods Frameworks */,
+				42BEF505788C7F1869B49727 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				093FA3EC1E07C61400B11695 /* PBXTargetDependency */,
+			);
+			name = SYPopupViewUITests;
+			productName = SYPopupViewUITests;
+			productReference = 093FA3EA1E07C61400B11695 /* SYPopupViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		093FA3BE1E07C61300B11695 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = shenyunxiang;
+				TargetAttributes = {
+					093FA3C51E07C61300B11695 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					093FA3DE1E07C61400B11695 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 093FA3C51E07C61300B11695;
+					};
+					093FA3E91E07C61400B11695 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 093FA3C51E07C61300B11695;
+					};
+				};
+			};
+			buildConfigurationList = 093FA3C11E07C61300B11695 /* Build configuration list for PBXProject "SYPopupView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 093FA3BD1E07C61300B11695;
+			productRefGroup = 093FA3C71E07C61300B11695 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				093FA3C51E07C61300B11695 /* SYPopupView */,
+				093FA3DE1E07C61400B11695 /* SYPopupViewTests */,
+				093FA3E91E07C61400B11695 /* SYPopupViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		093FA3C41E07C61300B11695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093FA3D91E07C61400B11695 /* LaunchScreen.storyboard in Resources */,
+				093FA3D61E07C61300B11695 /* Assets.xcassets in Resources */,
+				093FA3D41E07C61300B11695 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093FA3DD1E07C61400B11695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093FA3E81E07C61400B11695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11CD9308708DBD6F3A0D758B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		158A94C90657F7BB5042CF10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		36D3A82276E46F67DBC0C007 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYPopupView/Pods-SYPopupView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42BEF505788C7F1869B49727 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYPopupViewUITests/Pods-SYPopupViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4797C9B5FB22C4295287F042 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYPopupViewTests/Pods-SYPopupViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82590B91DED5F00A1ED82B35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ABD5F1ED4CD5E785DAA28E6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYPopupViewUITests/Pods-SYPopupViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD020090118DC559B068525A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYPopupViewTests/Pods-SYPopupViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D49395E09B56A11D2C579787 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYPopupView/Pods-SYPopupView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		093FA3C21E07C61300B11695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09866C751E6EDC4300FC249D /* SYPopupCategory.m in Sources */,
+				093FA3D11E07C61300B11695 /* ViewController.m in Sources */,
+				093FA4021E07CA4C00B11695 /* SYPopupView.m in Sources */,
+				09866C791E6EF43D00FC249D /* SYPopupItem.m in Sources */,
+				093FA3CE1E07C61300B11695 /* AppDelegate.m in Sources */,
+				093FA3FF1E07C6F600B11695 /* SYPopupWindow.m in Sources */,
+				093FA3CB1E07C61300B11695 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093FA3DB1E07C61400B11695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093FA3E41E07C61400B11695 /* SYPopupViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093FA3E61E07C61400B11695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093FA3EF1E07C61400B11695 /* SYPopupViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		093FA3E11E07C61400B11695 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 093FA3C51E07C61300B11695 /* SYPopupView */;
+			targetProxy = 093FA3E01E07C61400B11695 /* PBXContainerItemProxy */;
+		};
+		093FA3EC1E07C61400B11695 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 093FA3C51E07C61300B11695 /* SYPopupView */;
+			targetProxy = 093FA3EB1E07C61400B11695 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		093FA3D21E07C61300B11695 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				093FA3D31E07C61300B11695 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		093FA3D71E07C61400B11695 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				093FA3D81E07C61400B11695 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		093FA3F11E07C61400B11695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		093FA3F21E07C61400B11695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		093FA3F41E07C61400B11695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0D5EF23ED65F78EE8D2F669 /* Pods-SYPopupView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SYPopupView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shenyunxiang.SYPopupView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		093FA3F51E07C61400B11695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AF7362D6D736F17872105D5 /* Pods-SYPopupView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SYPopupView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shenyunxiang.SYPopupView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		093FA3F71E07C61400B11695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3D8BADFC2621C53B422E897 /* Pods-SYPopupViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SYPopupViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shenyunxiang.SYPopupViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYPopupView.app/SYPopupView";
+			};
+			name = Debug;
+		};
+		093FA3F81E07C61400B11695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA534E8217AB61AF98E30AA3 /* Pods-SYPopupViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SYPopupViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shenyunxiang.SYPopupViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYPopupView.app/SYPopupView";
+			};
+			name = Release;
+		};
+		093FA3FA1E07C61400B11695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB4E99D26FC9C9621532E10E /* Pods-SYPopupViewUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SYPopupViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shenyunxiang.SYPopupViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SYPopupView;
+			};
+			name = Debug;
+		};
+		093FA3FB1E07C61400B11695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A58B03F3AFCA22F9AA6696B2 /* Pods-SYPopupViewUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SYPopupViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shenyunxiang.SYPopupViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SYPopupView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		093FA3C11E07C61300B11695 /* Build configuration list for PBXProject "SYPopupView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093FA3F11E07C61400B11695 /* Debug */,
+				093FA3F21E07C61400B11695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		093FA3F31E07C61400B11695 /* Build configuration list for PBXNativeTarget "SYPopupView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093FA3F41E07C61400B11695 /* Debug */,
+				093FA3F51E07C61400B11695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		093FA3F61E07C61400B11695 /* Build configuration list for PBXNativeTarget "SYPopupViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093FA3F71E07C61400B11695 /* Debug */,
+				093FA3F81E07C61400B11695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		093FA3F91E07C61400B11695 /* Build configuration list for PBXNativeTarget "SYPopupViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093FA3FA1E07C61400B11695 /* Debug */,
+				093FA3FB1E07C61400B11695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 093FA3BE1E07C61300B11695 /* Project object */;
+}
